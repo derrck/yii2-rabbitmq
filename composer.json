@@ -1,0 +1,30 @@
+{
+	"name": "derrck/yii2-rabbitmq",
+	"description": "yii2 package for RabbitMQ",
+	"keywords": [
+		"yii2",
+		"RabbitMQ",
+    "php"
+	],
+	"homepage": "https://github.com/derrck/yii2-rabbitmq",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/derrck/yii2-rabbitmq"
+	},
+	"authors": [
+	{
+		"name": "Derrck Deng",
+		"email": "dcdengchao@gmail.com"
+	}
+	],
+	"require": {
+		"yiisoft/yii2": "^2.0",
+        "php-amqplib/php-amqplib": "^2.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"derrck\\rabbitmq\\": ""
+		}
+	}
+}
