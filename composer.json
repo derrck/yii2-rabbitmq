@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"derrck\\rabbitmq\\": ""
+			"derrck\\yii2\\": "src/"
 		}
 	}
 }
