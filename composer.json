@@ -4,7 +4,7 @@
 	"keywords": [
 		"yii2",
 		"RabbitMQ",
-    "php"
+    		"php"
 	],
 	"homepage": "https://github.com/derrck/yii2-rabbitmq",
 	"type": "yii2-extension",
