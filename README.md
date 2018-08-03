@@ -1,7 +1,7 @@
 # yii2-rabbitmq
 yii2 package for RabbitMQ
 
-Install 安装包
+安装包 Install 
 ```
 composer require derrck/yii2-rabbitmq:dev-master
 ```
