@@ -24,7 +24,6 @@ return [
             'password' => 'guest',
             'vhost' => '/',
         ],
-	],
 	// [...]
 ];
 ```
