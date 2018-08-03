@@ -50,8 +50,8 @@ class rabbitmq extends Component{
 
     /**
      * publis message to rabbitMQ
-     * @param string $exchange_name The name of the exchange to set as string.
-     * @param string The message to publish.
+     * @param string $message The name of the exchange to set as string.
+     *               The message to publish.
      * @param string $k_route The optional routing key to which to
      *               publish to.
      * @param string $e_name
