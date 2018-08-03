@@ -5,12 +5,12 @@ yii2 package for RabbitMQ
 ```
 composer require derrck/yii2-rabbitmq:dev-master
 ```
-或者到项目中compare.phar的同级目录
+或者到项目中compare.phar的同级目录 or run below code in composer.phar path
 ```
 php composer.phar require --prefer-dist derrck/yii2-rabbitmq "*"
 ```
 
-config文件中加入配置
+config文件中加入配置 add below code to config file
 ```
 return [
 	// [...]
@@ -28,7 +28,7 @@ return [
 ];
 ```
 
-使用
+使用 Use
 ```
 Yii::$app->rabbitmq->setMessage('messagessss', 'my_queue');
 Yii::$app->rabbitmq->getMessage('my_queue', 'your_queue');
